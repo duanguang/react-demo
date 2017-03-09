@@ -24,7 +24,7 @@ import * as React from 'react';
 
 export default NameIndex;*/
 
-export default class NameIndex extends React.Component<void,void>{
+export default class NameIndex extends React.Component{
     constructor(props) {
         super(props);
     }

@@ -7,7 +7,9 @@ import HelloMessage from '../component/demo/index'
 import NameIndex from '../component/demo1/index'
 import StateIndex from '../component/demo2/index';
 import AppIndex from '../component/demo3/index';
+import Counter from "../component/counter/Counter";
+import SignupForm from '../component/demo4/index';
 ReactDOM.render(
-    <AppIndex ></AppIndex>,
+    <SignupForm ></SignupForm>,
     document.getElementById('app')
 );
